@@ -5,19 +5,22 @@
       "name": "client",
       "image": "andreitarlapan/multi-client",
       "hostname": "client",
-      "esential": false
+      "esential": false,
+      "memory": 128
     },
     {
       "name": "server",
       "image": "andreitarlapan/multi-server",
       "hostname": "api",
-      "esential": false
+      "esential": false,
+      "memory": 128
     },
     {
       "name": "worker",
       "image": "andreitarlapan/multi-worker",
       "hostname": "worker",
-      "esential": false
+      "esential": false,
+      "memory": 128
     },
     {
       "name": "nginx",
@@ -30,7 +33,8 @@
           "containerPort": 80
         }
       ],
-      "links": ["client", "server"]
+      "links": ["client", "server"],
+      "memory": 128
     }
   ]
 }
