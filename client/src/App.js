@@ -11,14 +11,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
           <Link to="/">Home</Link>
-          <Link to="/otherpage">Other Page</Link>
+          <Link to="/otherpage">Other Page from here</Link>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Lets try something new
+          Lets try something new and not only
         </a>
       </header>
       <div>
