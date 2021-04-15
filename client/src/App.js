@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Lets try something new and not only
+          Lets try Kubernetes
         </a>
       </header>
       <div>
